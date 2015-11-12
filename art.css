@@ -1,17 +1,28 @@
+body {
+   background-color: MintCream;
+   font-family: Georgia, serif;
+}
+
+#header {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
 nav {
 	text-align: center;
+	margin-bottom: 30px
 }
 p {
-	font-family: "verdana", sans-serif;
+	/*font-family: "verdana", sans-serif;*/
 	color: #778899
 }
 .text-center {
-	font-family: 'Copperplate', sans-serif;
+	/*font-family: 'Copperplate', sans-serif;*/
 	color: #808080;
 }
 
 .illustrations {
-	font-family: 'Copperplate', sans-serif;
+	/*font-family: 'Copperplate', sans-serif;*/
 	color: #808080
 }
 
@@ -19,15 +30,12 @@ p {
 	font-family: "verdana", sans-serif;
 	color: #808080
 }
-
+/*
 * {
 	margin: 0; padding: 0;
 }
-  
-body {
-    <!-- src: http://subtlepatterns.com/?p=1045 -->
-    background: url('dark_geometric.png');
-}
+  */
+
 
 .col-md-4 {
 	padding: 50px;
@@ -49,6 +57,9 @@ body {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
    	-moz-column-count: 2; /* Firefox */
     column-count: 2;
+    margin-bottom: 50px
+    margin-right: 20px;
+    margin-left: 20px
 }
 
 #bigdiv3 {

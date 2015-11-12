@@ -4,21 +4,25 @@ body {
 }
 
 nav {
-	border-bottom: double;
 	text-align: center;
-}
-
-#bigdiv {
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-   	-moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    background-color: WhiteSmoke;
+	margin-bottom: 30px;
 }
 
 img {
 	/*margin: auto;*/
 	float; left:
 }
+
+h3 {
+	text-decoration: underline;
+}
+
+#bigdiv {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+   	-moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
 
 #header {
 	text-align: center;

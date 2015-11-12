@@ -1,0 +1,44 @@
+body {
+	background-color: MintCream;
+	font-family: Georgia, serif;
+}
+
+#bigdiv {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+   	-moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    background-color: WhiteSmoke;
+}
+
+img {
+	/*margin: auto;*/
+	float; left:
+}
+
+#header {
+	text-align: center;
+}
+
+#about-me {
+	width: 300px
+}
+
+
+#sidebar {
+	/*float: right;*/
+}
+
+
+#footer {
+	clear: left;
+}
+
+/*.row {
+	display: inline;
+} */
+
+/*
+.col-md-4 {
+	float: left;
+} */
+

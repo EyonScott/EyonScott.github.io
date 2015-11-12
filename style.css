@@ -3,6 +3,11 @@ body {
 	font-family: Georgia, serif;
 }
 
+nav {
+	border-bottom: double;
+	text-align: center;
+}
+
 #bigdiv {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
    	-moz-column-count: 3; /* Firefox */

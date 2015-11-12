@@ -1,0 +1,32 @@
+nav {
+	text-align: center;
+}
+p {
+	font-family: "verdana", sans-serif;
+	color: #778899
+}
+.text-center {
+	font-family: 'Copperplate', sans-serif;
+	color: #808080;
+}
+
+.videos {
+	font-family: 'verdana', serif;
+	color: #808080
+}
+
+* {
+	margin: 0; padding: 0;
+}
+  
+body {
+    <!-- src: http://subtlepatterns.com/?p=1045 -->
+    background: url('dark_geometric.png');
+}
+ 
+#container {
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    background: white;
+}

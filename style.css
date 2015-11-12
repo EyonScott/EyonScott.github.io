@@ -1,6 +1,6 @@
 body {
 	background-color: MintCream;
-	font-family: Georgia, serif;
+	font-family: Verdana, sans-serif;
 }
 
 nav {
@@ -8,14 +8,19 @@ nav {
 	margin-bottom: 30px;
 }
 
+a {
+	text-decoration: none;
+	color: grey;
+}
+
 img {
 	/*margin: auto;*/
 	float; left:
 }
 
-h3 {
-	text-decoration: underline;
-}
+/*h3 {
+	text-decoration:;
+}*/
 
 #bigdiv {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -29,7 +34,7 @@ h3 {
 }
 
 #about-me {
-	width: 300px
+	width: 300px;
 }
 
 

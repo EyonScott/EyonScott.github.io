@@ -1,6 +1,6 @@
 body {
     background-color: MintCream;
-    font-family: Georgia, serif;
+    font-family: Verdana, sans-serif;
 }
 
 #header {
@@ -10,11 +10,18 @@ body {
 
 nav {
 	text-align: center;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-family: Arial, serif;
+}
+
 p {
 	font-family: "verdana", sans-serif;
-	color: #778899
+	color: #778899;
 }
 .text-center {
 	/*font-family: 'Copperplate', sans-serif;*/
@@ -23,7 +30,7 @@ p {
 
 .videos {
 	/*font-family: 'verdana', serif;*/
-	color: #808080
+	color: #808080;
 }
 
 

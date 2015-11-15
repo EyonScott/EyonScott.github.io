@@ -43,36 +43,47 @@ p {
   */
 
 
-.col-md-4 {
+/*.col-md-4 {
 	padding: 50px;
 }
+
 #container {
     width: 1000px;
     overflow: hidden;
     margin: 50px auto;
     background: white;
-}
+}*/
 
 #bigdiv {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */ /*change count to 2*/
+	-webkit-column-gap: 15;
    	-moz-column-count: 2; /* Firefox */
+   	-moz-column-gap: 15;
     column-count: 2;
+    column-gap: 15;
 }
 
-#bigdiv2 {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+/*#bigdiv2 {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */ /*change count to 2*/
+	-webkit-column-gap: 10px;
    	-moz-column-count: 2; /* Firefox */
+   	-moz-column-gap: 10px;
     column-count: 2;
+    column-gap: 10px;
+
     margin-bottom: 50px
     margin-right: 20px;
     margin-left: 20px;
 }
 
-#bigdiv3 {
+/*#bigdiv3 {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */ /*change count to 2*/
+/*	-webkit-column-gap: 10px;
    	-moz-column-count: 2; /* Firefox */
+   	-moz-column-gap: 10px;
     column-count: 2;
-}
+    column-gap: 10px;
+} */
 
 
 

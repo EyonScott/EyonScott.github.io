@@ -1,6 +1,6 @@
 body {
-    background-color: MintCream;
-    font-family: Verdana, sans-serif;
+    background-color: WhiteSmoke;
+    font-family: 'Raleway', sans-serif;
 }
 
 #header {
@@ -28,9 +28,25 @@ p {
 	color: #808080;
 }
 
-.videos {
+h2 {
+	color: grey;
+}
+
+h3 {
+	color: #000000;
+}
+
+#videos {
 	/*font-family: 'verdana', serif;*/
 	color: #808080;
+	line-height: 170%;
+	-webkit-row-gap:      10px;
+	-webkit-column-count: 3;
+	-webkit-column-gap:   10px;
+	column-count:         3;
+	column-gap:           10px;  
+	row-gap:              10px;
+	padding: 10px;
 }
 
 

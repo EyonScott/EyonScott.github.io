@@ -6,7 +6,7 @@ body {
 
 nav {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 90px;
 }
 
 a {
@@ -19,6 +19,27 @@ img {
 	float; left:
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ ul ul { 
+ 	position: absolute;
+ 	display: none;
+ 	left: 0;
+ 	top: 100%;
+ }
+
+li {
+	display: inline;
+	position: relative;
+}
+
+li:hover ul {
+	display: block;
+	text-align: left;
+}
 /*h3 {
 	text-decoration:;
 }*/
@@ -40,8 +61,9 @@ img {
 }
 
 #about-me {
-	width: 300px;
+	width: 350px;
 	margin: auto;
+	padding-bottom: 20px;
 }
 
 

@@ -13,6 +13,28 @@ nav {
 	margin-bottom: 30px;
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ ul ul { 
+ 	position: absolute;
+ 	display: none;
+ 	left: 0;
+ 	top: 100%;
+ }
+
+li {
+	display: inline;
+	position: relative;
+}
+
+li:hover ul {
+	display: block;
+	text-align: left;
+}
+
 a {
 	text-decoration: none;
 	color: grey;

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!-- <script type="text/javascript" src="jquery-1.11.3.js"></script> -->
@@ -17,11 +17,11 @@
 				console.log(image);
 				});
 			$("#image").mouseover(function(){
-				$(this).animate({opacity: 0.4}, 1000);
+				$(this).animate({opacity: 0.4}, 500);
 
 			})
 			$("#image").mouseout(function(){
-				$(this).animate({opacity: 1.0}, 1000);
+				$(this).animate({opacity: 1.0}, 500);
 			});
 		});
 	</script>
@@ -60,22 +60,24 @@
 	</nav>
 	<div id="bigdiv">
 		<h2>About Me</h2>
-		<p width=100%>
+		<p>
 			From an early age, I've been invested in art and multimedia. With a background in Film and Media Studies at UC Berkeley, I translate my ideas through various forms of visual storytelling.  
 		</p>
-		<p width=100%>
+		<p>
 			Along with freelancing, I'm an archival associate at the Kapor Center for Social Impact.  <!-- My time with KCSI has especially fueled my drive to empower and create visibility for underrepresented communities in tech and media. --> I'm also currently learning front-end web development at Hackbright Academy, the engineering school for women. 
 
 			<!-- With a background in Film and Media Studies at UC Berkeley, I'm fully invested in art and visual story-telling. Currently, I'm also a freelance artist, as well as an archival associate at the Kapor Center for Social Impact.  --> 
 		</p>
 		<br></br>
-		<img id="image" class="bigPic" class="normalPic" src="http://eyonscott.github.io/IMG_1082.JPG" width=100%> <!-- width="325", height="250" -->
+		<div>
+		<img id="image" src="http://eyonscott.github.io/IMG_1082.JPG" width="325", height="250">
 
 		<h3>Follow Me Here!</h3>
 		<p><a href="https://counterbynature.blogspot.com/" target="_blank">Art Blog</a></p>
 		<p><a href="https://www.youtube.com/watch?v=MN3LtPNFusQ" target="_blank">YouTube</a></p>
 		<p><a href="https://www.linkedin.com/in/eyonniescott" target="_blank">LinkedIn</a></p>
 		<p><a href="http://www.facebook.com/eyonscott" target="_blank">Facebook</a></p>
+		</div>
 	</div>
 	
 	<footer id="footer">
@@ -83,11 +85,3 @@
 	</footer>
 </body>
 </html>
-
-
-
-
-
-
-
-

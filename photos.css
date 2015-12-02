@@ -18,7 +18,7 @@ ul {
 	margin: 0;
 }
 
- ul ul { 
+ ul ul {
  	position: absolute;
  	display: none;
  	left: 0;
@@ -76,16 +76,41 @@ p {
     background: white;
 }*/
 
+#bigdiv img {
+	width: 100%;
+}
+
 #bigdiv {
 	line-height: 170%;
 	-webkit-row-gap:      10px;
 	-webkit-column-count: 3;
 	-webkit-column-gap:   10px;
 	column-count:         3;
-	column-gap:           10px;  
+	column-gap:           10px;
 	row-gap:              10px;
 	padding: 10px;
+}
 
+/* tablet styles */
+@media only screen and (max-width : 800px) {
+	#bigdiv {
+		-webkit-row-gap:      10px;
+		-webkit-column-count: 2;
+		-webkit-column-gap:   10px;
+		column-count:         2;
+		column-gap:           10px;
+		row-gap:              10px;
+		padding: 0;
+	}
+
+}
+
+/* smartphone styles */
+@media only screen and (max-width : 440px) {
+	#bigdiv {
+		-webkit-column-count: 1;
+		column-count:         1;
+	}
 }
 
 /*#bigdiv2 {

@@ -14,10 +14,7 @@ a {
 	color: grey;
 }
 
-img {
-	/*margin: auto;*/
-	float; left:
-}
+
 
 ul {
 	padding: 0;
@@ -31,9 +28,14 @@ ul {
  	top: 100%;
  }
 
-li {
+.nav {
 	display: inline;
 	position: relative;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
 }
 
 li:hover ul {
@@ -45,9 +47,18 @@ li:hover ul {
 }*/
 
 #bigdiv {
-	opacity: .9;
+	/*opacity: .9;
     filter: alpha (opacity=40);
 	line-height: 100%;
+	-webkit-row-gap:      10px;
+	-webkit-column-count: 3;
+	-webkit-column-gap:   10px;
+	column-count:         3;
+	column-gap:           10px;  
+	row-gap:              10px;
+	padding: 10px;*/
+
+	line-height: 170%;
 	-webkit-row-gap:      10px;
 	-webkit-column-count: 3;
 	-webkit-column-gap:   10px;
@@ -62,19 +73,36 @@ li:hover ul {
 	text-align: center;
 }
 
+img {
+	margin: auto;
+	/*float; left:*/
+
+}
+
 #about-me {
 	/*width: 350px;*/
-	margin: auto;
-	padding-bottom: 20px;
+	/*margin: auto;*/
+	/*float: left;*/
+	/*padding-bottom: 20px;*/
+}
+
+p {
+	float: left;
+	padding-right: 10px;
 }
 
 
 #sidebar {
 /*	text-align: center;
-*/	margin: auto;
-	/*float: right;*/
+*/	
+	/*margin: auto;*/
+	float: right;
+	/*padding: 10px;*/
 }
 
+#follow-me {
+	margin-top: 10px;
+}
 
 #footer {
 	clear: left;

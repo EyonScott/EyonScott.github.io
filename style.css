@@ -75,8 +75,13 @@ li:hover ul {
 
 img {
 	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
 	/*float; left:*/
 	border-radius: 50%
+    
+
 
 }
 
@@ -107,6 +112,7 @@ p {
 
 #footer {
 	clear: left;
+	
 }
 
 

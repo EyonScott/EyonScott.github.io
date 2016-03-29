@@ -1,0 +1,107 @@
+body {
+	background-color: WhiteSmoke;
+	font-family: 'Raleway', sans-serif;
+	/*background-image: url(flourish.png);*/
+}
+
+nav {
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ ul ul { 
+ 	position: absolute;
+ 	display: none;
+ 	left: 0;
+ 	top: 100%;
+ }
+
+.nav {
+	display: inline;
+	position: relative;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:hover ul {
+	display: block;
+	text-align: left;
+}
+
+#bigdiv {
+	/*opacity: .9;
+    filter: alpha (opacity=40);
+	line-height: 100%;
+	-webkit-row-gap:      10px;
+	-webkit-column-count: 3;
+	-webkit-column-gap:   10px;
+	column-count:         3;
+	column-gap:           10px;  
+	row-gap:              10px;
+	padding: 10px;*/
+
+	line-height: 170%;
+	-webkit-row-gap:      10px;
+	-webkit-column-count: 3;
+	-webkit-column-gap:   10px;
+	column-count:         3;
+	column-gap:           10px;  
+	row-gap:              10px;
+	padding: 10px;
+}
+
+
+#header {
+	text-align: center;
+}
+
+
+    
+
+
+}
+
+#about-me {
+	/*width: 350px;*/
+	/*margin: auto;*/
+	/*float: left;*/
+	/*padding-bottom: 20px;*/
+}
+
+p {
+	float: left;
+	padding-right: 10px;
+}
+
+
+#sidebar {
+/*	text-align: center;
+*/	
+	/*margin: auto;*/
+	float: right;
+	/*padding: 10px;*/
+}
+
+#follow-me {
+	margin-top: 10px;
+}
+
+#footer {
+	clear: left;
+	
+}

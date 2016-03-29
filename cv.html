@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="cv.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://api.github.com/users/%7BGithubUsername%7D/events"></script>
+	<script src="moment.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+			var image = $("#image");
+
+			$("#resume").click(function(){
+			// console.log("image clicked");
+				$("#resume").toggleClass("increasePictureSize"); 
+				console.log(image);
+				});
+			$("#resume").mouseover(function(){
+				$(this).animate({opacity: 0.4}, 200);
+
+			});
+			$("#resume").mouseout(function(){
+				$(this).animate({opacity: 1.0}, 200);
+			});
+
+			var gitcommit = $("#gitcommit");
+				$get.text("https://api.github.com/users/%7BGithubUsername%7D/events");
+
+		});
+	</script>
+</head>
+<body>
+	<h1 id="header">Resume</h1>
+	<nav>
+		<ul>
+			<li class="nav">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="nav">
+				<a href="art.html">Gallery</a>
+				<ul>
+					<li><a href="digital.html">Digital</a></li>
+					<li><a href="paintings.html">Mixed Media</a></li>
+					<li><a href="sketches.html">Sketches</a></li>
+				</ul>
+			</li>
+			<li class="nav">
+				<a href="vids.html">Videography</a>
+				<ul>
+					<li><a href="collab.html">Collaborations</a></li>
+					<li><a href="indep.html">Independent</a></li>
+				</ul>
+			</li>
+			<li class="nav">
+				<a href="photos.html">Photography</a>
+			</li>
+			<li class="nav">
+				<a href="cv.html">Resume</a>
+			</li>
+			<li class="nav">
+				<a href="https://www.etsy.com/people/eyonscott?ref=hdr_user_menu" target="_blank">Shop</a>
+			</li>
+		</ul>
+	</nav>
+	<h2>Click Image to Download</h2>
+	
+	<div>
+		<a href="eyonniescottresume.pdf" download>
+			<img id="resume" src="eyonniescottresume.jpg" width=50%>
+		</a>
+	</div>
+	
+	<footer>E'yonnie Scott 2016 &copy</footer>
+
+</body>
+</html>
